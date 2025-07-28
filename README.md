@@ -1,4 +1,4 @@
-# Fitness App API - Modular Monolith
+# BiôMeta API - Modular Monolith
 
 Uma API RESTful completa para aplicativo de fitness desenvolvida com **Fastify**, **TypeScript**, **MongoDB** e **arquitetura Modular Monolith**.
 
