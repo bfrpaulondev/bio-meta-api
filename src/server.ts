@@ -1,4 +1,6 @@
-import Fastify, { FastifyInstance } from 'fastify';
+
+
+import  Fastify, { FastifyInstance } from 'fastify';
 import { config } from '@config/environment';
 import { database } from '@shared/database/connection';
 
@@ -79,8 +81,8 @@ async function createServer(): Promise<FastifyInstance> {
 
   // Registrar rotas
   await fastify.register(authRoutes, { prefix: '/api/auth' });
-  await fastify.register(dashboardRoutes, { prefix: '/api/dashboard' });
-  await fastify.register(workoutRoutes, { prefix: '/api/workouts' });
+    await fastify.register(workoutRoutes, { prefix: '/api/workouts' });
+
   await fastify.register(shoppingRoutes, { prefix: '/api/shopping' });
   await fastify.register(measurementRoutes, { prefix: '/api/measurements' });
   await fastify.register(galleryRoutes, { prefix: '/api/gallery' });
