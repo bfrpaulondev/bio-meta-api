@@ -119,8 +119,8 @@ src/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/bfrpaulondev/fastify-modular-monolith-api.git
-cd fastify-modular-monolith-api
+git clone https://github.com/bfrpaulondev/bio-meta-api.git
+cd bio-meta-api
 ```
 
 ### 2. Instale as dependências

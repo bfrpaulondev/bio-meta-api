@@ -58,8 +58,8 @@ Este guia fornece instruções detalhadas para configurar e executar a API do ap
 ### 1. Clone o Repositório
 
 ```bash
-git clone https://github.com/bfrpaulondev/fastify-modular-monolith-api.git
-cd fastify-modular-monolith-api
+git clone https://github.com/bfrpaulondev/bio-meta-api.git
+cd bio-meta-api
 ```
 
 ### 2. Instale as Dependências

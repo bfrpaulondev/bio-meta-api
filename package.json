@@ -1,5 +1,5 @@
 {
-  "name": "fastify-modular-monolith-api",
+  "name": "bio-meta-api",
   "version": "1.0.0",
   "main": "dist/server.js",
   "directories": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bfrpaulondev/fastify-modular-monolith-api.git"
+    "url": "git+https://github.com/bfrpaulondev/bio-meta-api.git"
   },
   "keywords": [
     "fastify",
@@ -31,9 +31,9 @@
   "author": "Paulo Neto",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bfrpaulondev/fastify-modular-monolith-api/issues"
+    "url": "https://github.com/bfrpaulondev/bio-meta-api/issues"
   },
-  "homepage": "https://github.com/bfrpaulondev/fastify-modular-monolith-api#readme",
+  "homepage": "https://github.com/bfrpaulondev/bio-meta-api#readme",
   "description": "API completa para aplicativo de fitness usando arquitetura Modular Monolith com Fastify, TypeScript, MongoDB, autenticação JWT e integração com ChatGPT",
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",

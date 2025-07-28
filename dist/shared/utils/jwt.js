@@ -51,14 +51,12 @@ class JWTUtils {
         const randomBytes = require('crypto').randomBytes(40);
         return randomBytes.toString('hex');
     }
-    static extractTokenFromHeader(authHeader) {
-        if (!authHeader)
-            return null;
-        const parts = authHeader.split(' ');
-        if (parts.length !== 2 || parts[0] !== 'Bearer') {
+    static extractToken(authHeader) {
+        if (!authHeader || !authHeader.startsWith('Bearer ')) {
             return null;
         }
-        return parts[1];
+        const parts = authHeader.split(' ');
+        return parts[1] || null;
     }
     static isTokenExpiringSoon(token, minutesThreshold = 15) {
         try {

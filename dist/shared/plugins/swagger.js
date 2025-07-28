@@ -172,7 +172,7 @@ A API utiliza **JWT (JSON Web Tokens)** para autenticação:
 
 Para dúvidas ou suporte, entre em contato:
 - **Email**: paulo@example.com
-- **GitHub**: https://github.com/bfrpaulondev/fastify-modular-monolith-api
+- **GitHub**: https://github.com/bfrpaulondev/bio-meta-api
         `,
                 version: '1.0.0',
                 contact: {
@@ -402,7 +402,18 @@ Para dúvidas ou suporte, entre em contato:
             showExtensions: false,
             showCommonExtensions: false,
             tryItOutEnabled: true,
-            requestSnippets: true,
+            requestSnippets: {
+                generators: {
+                    curl_bash: {
+                        title: 'cURL (bash)',
+                        syntax: 'bash'
+                    },
+                    curl_powershell: {
+                        title: 'cURL (PowerShell)',
+                        syntax: 'powershell'
+                    }
+                }
+            },
             supportedSubmitMethods: ['get', 'post', 'put', 'delete', 'patch'],
             validatorUrl: null
         },
