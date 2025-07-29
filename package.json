@@ -7,9 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/server.js",
-    "dev": "nodemon --exec ts-node src/server.ts",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "echo \"Linting not configured yet\"",
     "clean": "rm -rf dist"
@@ -36,12 +35,7 @@
   "homepage": "https://github.com/bfrpaulondev/bio-meta-api#readme",
   "description": "API completa para aplicativo de fitness usando arquitetura Modular Monolith com Fastify, TypeScript, MongoDB, autenticação JWT e integração com ChatGPT",
   "devDependencies": {
-    "@types/bcryptjs": "^2.4.6",
-    "@types/jsonwebtoken": "^9.0.10",
-    "@types/node": "^24.1.0",
-    "nodemon": "^3.1.10",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "nodemon": "^3.1.10"
   },
   "dependencies": {
     "@fastify/cors": "^11.0.1",
